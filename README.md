@@ -10,7 +10,7 @@ InputFolder: Folder contains .fasq files(or .sam files)
 
 OuputFolder: SortedFiles/
 
-**If the input files are in .fastq format**
+**If the input files are in .fastq format (execute the first for loop in Seq-analysis.sh)**
 
 1. *trimPolyA.py*
 
@@ -36,7 +36,7 @@ output: SortedFiles/XXX/
 *features:*
 Take in .sam files, converted in .csv format, stored in SortedFiles/
 
-**If the input files are in .sam format**
+**If the input files are in .sam format(execute the second for loop in Seq-analysis.sh)**
 
 1. *FeatureCounts_sam.py*
 
